@@ -4,6 +4,7 @@ function h = figure1(y,theta)
 
   h = figure('Name','Nash Equilibrium Lobbying Efforts By Player',...
       'Units','normalized','Position',[0.2727    0.2972    0.2652    0.4382]);
+  
 
   % Subplot 1: Player A
   % Create axes 

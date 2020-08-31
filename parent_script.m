@@ -100,11 +100,17 @@
  % Plot 1: NE by treatment, for each player
  h1 = figure1(y,par.theta);
  
+ % Plot 1: NE by treatment, for each player
+ h1_bw = figure1_bw(y,par.theta);
+ print('Figure1_BW','-depsc'); 
+
  % Plot 2: NE by player, for each treatment
  h2 = figure2(y,par.theta);
  
  % Plot 2 Alternative: NE by player, for each treatment
  h2_alt = figure2_alt(y,par.theta);
        
-    
+ % Plot 2 B&W: NE by player, for each treatment
+ h2_bw = figure2_bw(y,par.theta);
+ print('Figure2_BW','-deps'); 
     
